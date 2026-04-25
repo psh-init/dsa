@@ -23,6 +23,7 @@ int main() {
         for(int i=top;i<=bottom;i++) {
             cout<<arr[i][right]<<" ";
         }
+        right--;
 
         if(top<=bottom) {
             for(int j=right;j>=left;j--) {

@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    int n;
+    cin>>n;
+    vector<int> arr(n);
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
+    for(int i=n-1;i>=0;i--){
+        cout<<arr[i]<<" ";
+    }    cout<<endl;
+
+    cout<<arr[0]<<" ";
+}
+
+// it only traverses the array in reverse order and prints the elements. It does not modify the original array. The last line prints the first element of the original array, which is not affected by the reverse traversal.

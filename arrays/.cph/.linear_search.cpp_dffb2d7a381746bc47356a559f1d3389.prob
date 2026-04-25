@@ -1,0 +1,1 @@
+{"name":"Local: linear_search","url":"/home/priyanshu/Desktop/dsa/arrays/linear_search.cpp","tests":[{"id":1776927533346,"input":"5\n3 7 8 2 9\n9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/priyanshu/Desktop/dsa/arrays/linear_search.cpp","group":"local","local":true}
